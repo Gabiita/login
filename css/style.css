@@ -4,7 +4,7 @@
 	width: 27em;
   padding: 2em 2em 5em 2em;
 }
-.input-user::after{
+.icon-user::after{
   content: "\f007";
   font-family: "FontAwesome";
   position: absolute;
@@ -12,11 +12,10 @@
   top: 7px;
 }
 .input-password{
-  content: "\f084";
-  font-family: "FontAwesome";
-  position: absolute;
-  left: 1.5em;
-  top: 7px;
+  padding-left: 3em!important;
+}
+.input-user{
+  padding-left: 3em!important;
 }
 .key{
   position: absolute;

@@ -16,12 +16,12 @@
       </div>
       	<div class="large-12 columns small-centered panel formulario">
           <p class="parrafo">Página web para enviar notificaciones al celular, disponible para iphone y para android</p>
-          <form>
+          <form method="post" action="php/login.php">
             <div class="row">
-              <div class=" columns input-user">
-                <input type="text" placeholder="      Usuario" id="user"></input>
-                <input type="password" placeholder="      Ingrese Contraseña" id="password"><i class="fa fa-key key"></i></input>
-                <a href="message.html" class="small radius button btn">Iniciar Sesión</a><br/>
+              <div class=" columns icon-user">
+                <input type="text" placeholder="Usuario" name="user" id="user" class="input-user"></input>
+                <input type="password" placeholder="Ingrese Contraseña" id="password" name="password" class="input-password"><i class="fa fa-key key"></i></input>
+                <button href="message.html" class="small radius button btn" type="submit">Iniciar Sesión</button><br/>
                 <img src="img/logo.png" class="img-logo">
               </div>
             </div>
